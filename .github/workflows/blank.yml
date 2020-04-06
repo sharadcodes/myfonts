@@ -22,7 +22,7 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     - name: Font TypeKit Generation Action
-      uses: sharadcodes/font-typekit-generator-action@v1.0
+      uses: sharadcodes/font-typekit-generator-action@v1.0.1
       with:
         input-folder: "my_fonts" # This is a Required field & this folder has original font files in TTF format
         output-folder: "converted_fonts" # This is a Required field & this folder will be used to store converted font files
